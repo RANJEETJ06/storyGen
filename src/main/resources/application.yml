@@ -2,7 +2,7 @@ spring:
   application:
     name: storyGen
 server:
-  port: 9000
+  port: 8080
 
 gemini:
   api-key: ${geminiAPI}
