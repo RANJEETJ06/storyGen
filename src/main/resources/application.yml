@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: storyGen
+server:
+  port: 9000
+
+gemini:
+  api-key: ${geminiAPI}
+  endpoint: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+
